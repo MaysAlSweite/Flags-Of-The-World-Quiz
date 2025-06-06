@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:
+            url("src/assets/international-flags-of-the-world.png");
+            background-repeat: no-repeat;
+            background-size: 100em 50em;
+}
+
+.img{
+    width: 1000px;
+    height: 250px;
+    background-position: center;
+    background-size: 90%;
+    background-image:
+    url("src/assets/Flag_of_Palestine.svg.png");
+    border-radius: 20%;
+}
+.welcome{
+    margin-bottom: 2%;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: transparent;
+    font-weight: bolder;
+    color: black;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flags{
+    height: 200px;
+    width: 200px;
+}
+
+.start{
+    border: 2px solid rgba(34, 27, 27, 0.696);
+    border-radius: 5%;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgba(155, 75, 230, 0.888);;
+    margin-top: 5%;
+}
+.start:hover{
+    color: red;
+    box-shadow: inset 0px 0px 5px rgba(155, 75, 230, 0.888), 0px 0px 25px rgba(155, 75, 230, 0.888), 0px 0px 5px rgba(155, 75, 230, 0.888);
+}

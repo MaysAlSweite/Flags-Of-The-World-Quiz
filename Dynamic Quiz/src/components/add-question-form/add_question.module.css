@@ -1,0 +1,89 @@
+.addQuestionForm {
+    width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #9cbddec9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 { 
+    height: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #d6d6d6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, #f8cdda, #1d2b64);
+  
+}
+.form, .choices{
+    margin-bottom: 1rem;
+    padding: 5px;
+    border: 2px solid rgba(240, 128, 128, 0.295);
+    background: #9cbddebb;
+}
+
+.label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1b0869;
+    background: transparent;
+}
+
+.label small {
+    font-size: 0.8rem;
+    color: #1d1c1c;
+    font-weight: normal;
+    background: transparent;
+}
+
+.input {
+    width: 50%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #1d1c1c;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.submitButton {
+    width: 60%;
+    padding: 0.75rem;
+    margin-top: 5%;
+    background: #4a90e2;
+    color: rgb(4, 3, 3);
+    border-radius: 80px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.submitButton:hover, .start:hover{
+    background: #143a69;
+    font-style: italic;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+.start{
+    width: 60%;
+    padding: 0.75rem;
+    margin-top: 5%;
+    margin-left: 20%;
+    background: #4a90e2;
+    color: rgb(4, 3, 3);
+    border-radius: 80px;
+    font-size: 1rem;
+    font-weight: 500;
+    display: none;
+}

@@ -1,0 +1,12 @@
+.ul{
+    display : flex;
+    align-items: space-between;
+    justify-content: center;
+    column-gap: 50px;
+}
+.li{
+    font-family: 'Courier New', Courier, monospace;
+        color: #1b0869;
+        background: transparent;
+        font-size: large;
+}
